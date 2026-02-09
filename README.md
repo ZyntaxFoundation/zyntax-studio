@@ -8,6 +8,8 @@
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
   [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/ZyntaxFoundation/zyntax-ide)
   [![Platform](https://img.shields.io/badge/platform-win%20|%20mac%20|%20linux-lightgrey.svg)]()
+  [![Website](https://img.shields.io/badge/Website-zyntax.gt.tc-blueviolet.svg)](https://zyntax.gt.tc)
+  [![Discord](https://img.shields.io/discord/1234567890?label=Discord&logo=discord&style=flat-square)](https://discord.gg/VBJ77HdHqP)
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
   <p align="center">
