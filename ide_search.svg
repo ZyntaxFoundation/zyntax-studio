@@ -1,0 +1,122 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color: #1e1e1e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <clipPath id="clip-sidebar">
+      <rect x="48" y="30" width="250" height="470"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" rx="6" fill="#1e1e1e" />
+  
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="30" rx="6" fill="#323233" />
+  <rect x="0" y="25" width="800" height="5" fill="#323233" />
+  
+  <!-- Window Controls -->
+  <circle cx="20" cy="15" r="5.5" fill="#ff5f56" />
+  <circle cx="40" cy="15" r="5.5" fill="#ffbd2e" />
+  <circle cx="60" cy="15" r="5.5" fill="#27c93f" />
+  
+  <text x="400" y="20" font-size="12" fill="#9da5b4" text-anchor="middle">Zyntax Studio - Search</text>
+
+  <!-- Activity Bar -->
+  <rect x="0" y="30" width="48" height="470" fill="#333333" />
+  
+  <!-- Icons -->
+  <g transform="translate(14, 42)" opacity="0.6">
+    <path d="M2.5 4L5 4L6 6L16 6L16 16L2.5 16L2.5 4Z" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  
+  <!-- Search Icon (Active) -->
+  <rect x="0" y="78" width="2" height="48" fill="#ffffff" />
+  <g transform="translate(14, 90)" opacity="1">
+    <circle cx="8" cy="8" r="5" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <line x1="12" y1="12" x2="16" y2="16" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  
+  <g transform="translate(14, 138)" opacity="0.6">
+     <circle cx="5" cy="5" r="2" fill="#ffffff"/>
+     <circle cx="12" cy="12" r="2" fill="#ffffff"/>
+     <circle cx="5" cy="15" r="2" fill="#ffffff"/>
+     <path d="M5 5 L5 15 M5 10 L12 12" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  </g>
+  <!-- Extensions -->
+  <g transform="translate(14, 186)" opacity="0.6">
+    <rect x="3" y="3" width="6" height="6" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <rect x="10" y="3" width="6" height="6" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <rect x="3" y="10" width="6" height="6" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <rect x="11" y="11" width="4" height="4" fill="#ffffff"/>
+  </g>
+
+  <!-- Sidebar: Search -->
+  <rect x="48" y="30" width="250" height="470" fill="#252526" />
+  <text x="68" y="55" font-size="11" fill="#bbbbbb" font-weight="600" letter-spacing="0.5">SEARCH</text>
+  
+  <!-- Search Input -->
+  <rect x="60" y="70" width="226" height="26" rx="2" fill="#3c3c3c" stroke="#007acc" stroke-width="1" />
+  <text x="68" y="87" font-size="12" fill="#ffffff">my_variable</text>
+  <!-- Icons inside input -->
+  <g transform="translate(260, 75)">
+     <text x="0" y="10" font-size="10" fill="#cccccc" font-family="monospace">.*</text>
+  </g>
+  
+  <!-- Replace Input -->
+  <rect x="60" y="105" width="226" height="26" rx="2" fill="#3c3c3c" stroke="#3c3c3c" stroke-width="1" />
+  <text x="68" y="122" font-size="12" fill="#999999" font-style="italic">Replace</text>
+  
+  <!-- Results -->
+  <rect x="48" y="150" width="250" height="22" fill="#37373d" />
+  <path d="M60 158 L65 163 L70 158" fill="#cccccc" /> <!-- Expanded chevron -->
+  <text x="80" y="166" font-size="12" fill="#cccccc" font-weight="bold">main.znx</text>
+  <rect x="260" y="154" width="20" height="14" rx="7" fill="#4d4d4d"/>
+  <text x="266" y="165" font-size="10" fill="#cccccc">3</text>
+  
+  <!-- Match 1 -->
+  <rect x="48" y="175" width="250" height="20" fill="#2a2d2e" /> <!-- Highlight BG -->
+  <text x="70" y="189" font-family="Consolas, monospace" font-size="11" fill="#bbbbbb">set <tspan fill="#d16969" font-weight="bold">my_variable</tspan> = ...</text>
+  
+  <!-- Match 2 -->
+  <text x="70" y="210" font-family="Consolas, monospace" font-size="11" fill="#bbbbbb">say <tspan fill="#d16969" font-weight="bold">my_variable</tspan></text>
+  
+  <!-- Match 3 -->
+  <text x="70" y="231" font-family="Consolas, monospace" font-size="11" fill="#bbbbbb">if <tspan fill="#d16969" font-weight="bold">my_variable</tspan> > 10</text>
+  
+  <!-- Result File 2 -->
+  <path d="M60 255 L65 260 L60 265" fill="#cccccc" /> <!-- Collapsed chevron -->
+  <text x="80" y="266" font-size="12" fill="#cccccc" font-weight="bold">utils.znx</text>
+  <rect x="260" y="254" width="20" height="14" rx="7" fill="#4d4d4d"/>
+  <text x="266" y="265" font-size="10" fill="#cccccc">1</text>
+
+  <!-- Editor Area (Dimmed showing context) -->
+  <rect x="298" y="30" width="502" height="470" fill="#1e1e1e" />
+  
+  <!-- Code Snippet with Highlight -->
+  <g transform="translate(340, 100)" font-family="Consolas, monospace" font-size="14">
+    <text x="0" y="0" fill="#569cd6">function</text>
+    <text x="72" y="0" fill="#dcdcaa">process_data</text>
+    <text x="170" y="0" fill="#d4d4d4">()</text>
+    
+    <text x="0" y="30" fill="#c586c0">set</text>
+    <rect x="30" y="15" width="90" height="20" fill="#5f4c4c" rx="2" /> <!-- Match Highlight in Editor -->
+    <text x="32" y="30" fill="#dcdcaa">my_variable</text>
+    <text x="125" y="30" fill="#d4d4d4">= 100</text>
+    
+    <text x="0" y="60" fill="#c586c0">if</text>
+    <text x="32" y="60" fill="#dcdcaa">x</text>
+    <text x="48" y="60" fill="#d4d4d4">></text>
+    <text x="64" y="60" fill="#b5cea8">0</text>
+    
+    <text x="32" y="90" fill="#569cd6">say</text>
+    <text x="64" y="90" fill="#ce9178">"Value is:"</text>
+    
+    <rect x="160" y="75" width="90" height="20" fill="#5f4c4c" rx="2" />
+    <text x="162" y="90" fill="#dcdcaa">my_variable</text>
+  </g>
+  
+  <!-- Scrollbar -->
+  <rect x="790" y="30" width="10" height="470" fill="#1e1e1e" />
+  <rect x="792" y="80" width="6" height="100" rx="3" fill="#424242" />
+
+  <!-- Status Bar -->
+  <rect x="0" y="470" width="800" height="30" fill="#007acc" />
+</svg>

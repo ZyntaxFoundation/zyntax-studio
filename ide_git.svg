@@ -1,0 +1,137 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" style="background-color: #1e1e1e; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <!-- Background -->
+  <rect x="0" y="0" width="800" height="500" rx="6" fill="#1e1e1e" />
+  
+  <!-- Title Bar -->
+  <rect x="0" y="0" width="800" height="30" rx="6" fill="#323233" />
+  <rect x="0" y="25" width="800" height="5" fill="#323233" />
+  <circle cx="20" cy="15" r="5.5" fill="#ff5f56" />
+  <circle cx="40" cy="15" r="5.5" fill="#ffbd2e" />
+  <circle cx="60" cy="15" r="5.5" fill="#27c93f" />
+  <text x="400" y="20" font-size="12" fill="#9da5b4" text-anchor="middle">Zyntax Studio - main.znx (Diff)</text>
+
+  <!-- Activity Bar -->
+  <rect x="0" y="30" width="48" height="470" fill="#333333" />
+  
+  <!-- Icons -->
+  <!-- Explorer -->
+  <g transform="translate(14, 42)" opacity="0.6">
+    <path d="M2.5 4L5 4L6 6L16 6L16 16L2.5 16L2.5 4Z" fill="none" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <!-- Search -->
+  <g transform="translate(14, 90)" opacity="0.6">
+    <circle cx="8" cy="8" r="5" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+    <line x1="12" y1="12" x2="16" y2="16" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+  <!-- Git (Active) -->
+  <rect x="0" y="126" width="2" height="48" fill="#ffffff" />
+  <g transform="translate(14, 138)" opacity="1">
+     <circle cx="5" cy="5" r="2" fill="#ffffff"/>
+     <circle cx="12" cy="12" r="2" fill="#ffffff"/>
+     <circle cx="5" cy="15" r="2" fill="#ffffff"/>
+     <path d="M5 5 L5 15 M5 10 L12 12" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  </g>
+  
+  <!-- Sidebar: Source Control -->
+  <rect x="48" y="30" width="250" height="470" fill="#252526" />
+  <text x="68" y="55" font-size="11" fill="#bbbbbb" font-weight="600" letter-spacing="0.5">SOURCE CONTROL</text>
+  
+  <!-- Toolbar -->
+  <g transform="translate(220, 48)">
+    <text x="0" y="0" font-family="Arial" font-size="14" fill="#bbbbbb">↻</text>
+    <text x="25" y="0" font-family="Arial" font-size="14" fill="#bbbbbb">✓</text>
+    <text x="50" y="0" font-family="Arial" font-size="14" fill="#bbbbbb">...</text>
+  </g>
+
+  <!-- Commit Input -->
+  <rect x="58" y="70" width="230" height="30" rx="3" fill="#3c3c3c" stroke="#3c3c3c" stroke-width="1"/>
+  <text x="68" y="90" font-size="12" fill="#888888" font-style="italic">Message (Ctrl+Enter)</text>
+  
+  <rect x="58" y="110" width="230" height="26" rx="3" fill="#0e639c" />
+  <text x="145" y="128" font-size="12" fill="#ffffff" font-weight="bold">Commit</text>
+  
+  <!-- Staged Changes -->
+  <g transform="translate(58, 160)">
+    <path d="M0 5 L5 10 L0 15" fill="#bbbbbb" transform="scale(0.8)"/>
+    <text x="15" y="12" font-size="11" fill="#bbbbbb" font-weight="bold">STAGED CHANGES</text>
+    <rect x="200" y="2" width="16" height="12" rx="6" fill="#4d4d4d"/>
+    <text x="205" y="11" font-size="9" fill="#cccccc">1</text>
+    
+    <g transform="translate(10, 30)">
+       <text x="10" y="0" font-size="13" fill="#cccccc">utils.znx</text>
+       <text x="80" y="0" font-size="12" fill="#666666">src</text>
+       <text x="200" y="0" font-size="12" fill="#27c93f" font-weight="bold">M</text>
+    </g>
+  </g>
+  
+  <!-- Changes -->
+  <g transform="translate(58, 210)">
+     <path d="M0 5 L5 10 L0 15" fill="#bbbbbb" transform="scale(0.8)"/>
+    <text x="15" y="12" font-size="11" fill="#bbbbbb" font-weight="bold">CHANGES</text>
+    <rect x="200" y="2" width="16" height="12" rx="6" fill="#4d4d4d"/>
+    <text x="205" y="11" font-size="9" fill="#cccccc">2</text>
+    
+    <g transform="translate(10, 30)">
+       <text x="10" y="0" font-size="13" fill="#cccccc">main.znx</text>
+       <text x="80" y="0" font-size="12" fill="#666666">src</text>
+       <text x="200" y="0" font-size="12" fill="#cca700" font-weight="bold">M</text>
+    </g>
+    
+    <g transform="translate(10, 55)">
+       <text x="10" y="0" font-size="13" fill="#73c991">new.znx</text>
+       <text x="200" y="0" font-size="12" fill="#73c991" font-weight="bold">U</text>
+    </g>
+  </g>
+
+  <!-- Diff Editor Area -->
+  <rect x="298" y="30" width="502" height="470" fill="#1e1e1e" />
+  
+  <!-- Diff Tabs -->
+  <rect x="298" y="30" width="502" height="30" fill="#2d2d2d" />
+  <text x="310" y="50" font-size="12" fill="#ffffff">main.znx (Working Tree)</text>
+  <text x="770" y="50" font-size="14" fill="#bbbbbb">...</text>
+  
+  <!-- Split View -->
+  <!-- Left: Original -->
+  <rect x="298" y="60" width="250" height="440" fill="#1e1e1e" stroke="#333" stroke-width="0.5"/>
+  <!-- Right: Modified -->
+  <rect x="548" y="60" width="252" height="440" fill="#1e1e1e" />
+  
+  <!-- Gutter Middle -->
+  <rect x="548" y="60" width="1" height="440" fill="#444" />
+  
+  <!-- Deleted Line (Left) -->
+  <rect x="298" y="120" width="250" height="20" fill="#4b1818" opacity="0.6"/>
+  <rect x="545" y="120" width="5" height="20" fill="#ff0000" opacity="0.8"/> <!-- Left marker -->
+   <!-- Removed line -->
+  <text x="340" y="134" font-family="Consolas, monospace" font-size="13" fill="#bbbbbb">set user = <tspan fill="#aaa">"Guest"</tspan></text>
+  
+  <!-- Added Line (Right) -->
+  <rect x="549" y="120" width="251" height="20" fill="#1e3a1e" opacity="0.6"/>
+  <rect x="549" y="120" width="5" height="20" fill="#27c93f" opacity="0.8"/> <!-- Right marker -->
+  <!-- New line -->
+  <text x="570" y="134" font-family="Consolas, monospace" font-size="13" fill="#bbbbbb">set user = <tspan fill="#ce9178">"Admin"</tspan></text>
+  
+  <!-- Unchanged Lines -->
+  <g transform="translate(340, 80)" font-family="Consolas, monospace" font-size="13" fill="#666666">
+     <text x="0" y="0">1   </text>
+     <text x="230" y="0" fill="#d4d4d4">function main()</text>
+  </g>
+  <g transform="translate(570, 80)" font-family="Consolas, monospace" font-size="13" fill="#666666">
+     <text x="0" y="0">1   </text>
+     <text x="230" y="0" fill="#d4d4d4">function main()</text>
+  </g>
+  
+  <g transform="translate(340, 100)" font-family="Consolas, monospace" font-size="13" fill="#666666">
+     <text x="0" y="0">2   </text>
+  </g>
+  <g transform="translate(570, 100)" font-family="Consolas, monospace" font-size="13" fill="#666666">
+     <text x="0" y="0">2   </text>
+  </g>
+
+  <!-- Status Bar -->
+  <rect x="0" y="470" width="800" height="30" fill="#007acc" />
+  <g transform="translate(10, 489)" font-size="12" fill="#ffffff">
+    <text x="15" y="0">master*</text>
+  </g>
+</svg>
