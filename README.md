@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=logo.png" alt="Zyntax Studio Logo" width="150" height="150" />
+  <img src="logo.png" alt="Zyntax Studio Logo" width="150" height="150" />
 
   # Zyntax Studio
   
