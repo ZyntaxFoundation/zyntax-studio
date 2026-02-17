@@ -6,7 +6,7 @@
   **The Official Integrated Development Environment for the Zyntax Language.**
   
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-  [![Version](https://img.shields.io/badge/version-1.1.0-green.svg)](https://github.com/ZyntaxFoundation)
+  [![Version](https://img.shields.io/badge/version-1.2.0-green.svg)](https://github.com/ZyntaxFoundation)
   [![Platform](https://img.shields.io/badge/platform-win%20|%20mac%20|%20linux-lightgrey.svg)]()
   [![Website](https://img.shields.io/badge/Website-zyntax.gt.tc-blueviolet.svg)](https://zyntax.gt.tc)
   [![Discord](https://img.shields.io/discord/1234567890?label=Discord&logo=discord&style=flat-square)](https://discord.gg/VBJ77HdHqP)
@@ -25,7 +25,7 @@
 
 ## Overview
 
-**Zyntax Studio Pro** is a modern, AI-powered IDE built specifically to supercharge your **Zyntax** development workflow. It delivers a premium, native coding experience.
+**Zyntax Studio Pro** is a modern, AI-powered IDE built specifically to supercharge your **Zyntax** development workflow. It delivers a premium, native coding experience with deep language integration and autonomous assistance.
 
 Unlike generic text editors, Zyntax Studio understands your code. From intelligent syntax highlighting to direct script execution and an embedded AI coding companion, every feature is designed to make writing Zyntax faster and error-free.
 
@@ -66,13 +66,15 @@ Unlike generic text editors, Zyntax Studio understands your code. From intellige
 ### Zyntax Intelligence (LSP)
 - **Native Support**: First-class citizen support for `.znx` files.
 - **Smart Autocomplete**: Context-aware suggestions for functions, keywords (`say`, `if`, `function`), and snippets.
+- **Go to Definition (F12)**: Jump instantly to the source of any function, even across imported modules.
 - **Syntax Highlighting**: Beautiful, readable color coding for improved clarity.
 
 ### ZynAssistant (AI-Powered)
 - **Integrated AI**: Chat with ZynAssistant directly in the sidebar to generate code, refactor logic, or fix bugs.
+- **ZAgent (Auto-Builder)**: A mission-driven autonomous agent that can plan and build entire projects from scratch, handling file creation and command execution automatically.
+- **AI Image Generation**: Generate stunning visual assets (flux, zimage, imagen-4) directly within the chat for your UI/UX needs.
 - **Agentic Capabilities**: The AI can Create Files, Read Directories, and Execute Commands (with your permission).
-- **ZynRescue Bridge**: Automatic fallback to alternative AI models if the primary service goes offline.
-- **Visual Feedback**: Clear "Action Plans" showing exactly what the AI wants to do before it does it.
+- **Infinite Resilience**: Automatic model rotation and smart retry logic ensures the AI stays online even during service outages.
 
 ### Power Tools
 - **Integrated Terminal**: Execute `run` commands and python scripts directly without leaving the IDE.
@@ -87,7 +89,7 @@ Unlike generic text editors, Zyntax Studio understands your code. From intellige
 ## Installation
 
 ### Windows
-1. Download the latest `.exe` from the [Releases Page](https://github.com/ZyntaxFoundation/zyntax-ide/releases).
+1. Download the latest `.exe` from the [Releases Page](https://github.com/ZyntaxFoundation/zyntax-studio/releases).
 2. Run the installer.
 3. Start coding in Zyntax!
 
@@ -98,8 +100,9 @@ Unlike generic text editors, Zyntax Studio understands your code. From intellige
 - [x] Integrated Terminal
 - [x] ZynAssistant AI Agent (Conversational + Actions)
 - [x] Git Support (Diff View, Commit, Push/Pull)
-- [x] Zyntax LSP (Autocompletion)
-- [x] **Debugger**: Variable Inspection & Stack Traces.
+- [x] Zyntax LSP (Autocompletion + Go to Definition)
+- [x] **ZAgent**: Autonomous Auto-Builder Mission system.
+- [x] **Image Gen**: AI-powered asset generation.
 - [x] **ZPM**: Extension Marketplace UI.
 - [ ] **Live Preview**: Real-time HTML/Web rendering side-by-side.
 
