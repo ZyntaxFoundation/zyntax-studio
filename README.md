@@ -25,7 +25,7 @@
 
 ## Overview
 
-**Zyntax Studio Pro** is a modern, AI-powered IDE built specifically to supercharge your **Zyntax** development workflow. It delivers a premium, native coding experience with deep language integration and autonomous assistance.
+**Zyntax Studio** is a modern, AI-powered IDE built specifically to supercharge your **Zyntax** development workflow. It delivers a premium, native coding experience with deep language integration and autonomous assistance.
 
 Unlike generic text editors, Zyntax Studio understands your code. From intelligent syntax highlighting to direct script execution and an embedded AI coding companion, every feature is designed to make writing Zyntax faster and error-free.
 
